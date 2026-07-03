@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "bedrijfsfotografie",
+    "title": "Bedrijfsfotografie",
+    "icon": "Building2",
+    "tagline": "Professionele portretten en sfeerbeelden voor je organisatie.",
+    "description": "Zakelijke portretten, teamfoto's en sfeerbeelden die de identiteit van je bedrijf professioneel neerzetten.",
+    "longDescription": "Van teamportretten tot kantoorsfeer: wij leggen jouw organisatie vast op een manier die vertrouwen en professionaliteit uitstraalt. Perfect voor je website, LinkedIn en jaarverslag.",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1600&q=80&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "order": 1,
+    "visible": true
+  },
+  {
+    "slug": "eventfotografie",
+    "title": "Eventfotografie",
+    "icon": "PartyPopper",
+    "tagline": "Elk moment van je evenement vastgelegd met precisie.",
+    "description": "Van zakelijke congressen tot exclusieve productlanceringen: wij vangen de energie van je evenement.",
+    "longDescription": "Wij bewegen onopvallend door je evenement en leggen de belangrijkste momenten vast — sprekers, netwerkmomenten, sfeer en details — zodat je achteraf een compleet visueel verslag hebt.",
+    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&q=80&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "order": 2,
+    "visible": true
+  },
+  {
+    "slug": "productfotografie",
+    "title": "Productfotografie",
+    "icon": "Package",
+    "tagline": "Producten die eruitzien alsof ze op een catwalk staan.",
+    "description": "Studiokwaliteit productbeelden die jouw assortiment laten stralen op webshop en social media.",
+    "longDescription": "Licht, compositie en detail bepalen of een productfoto verkoopt. Wij fotograferen jouw producten met precisie — clean op wit, of in sfeervolle setting — klaar voor webshop, catalogus en advertenties.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1600&q=80&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "order": 3,
+    "visible": true
+  },
+  {
+    "slug": "dronefotografie",
+    "title": "Dronefotografie",
+    "icon": "Plane",
+    "tagline": "Spectaculaire luchtbeelden van locaties en projecten.",
+    "description": "Gecertificeerde dronepiloten leveren verbluffende luchtfoto's en -video's van jouw pand of project.",
+    "longDescription": "Met professionele drones en gecertificeerde piloten brengen we jouw locatie, bouwproject of evenement vanuit een indrukwekkend perspectief in beeld — volledig volgens de geldende luchtvaartregels.",
+    "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1600&q=80&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1473773508845-188df298d2d1?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1487730116645-74489c95b41b?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "order": 4,
+    "visible": true
+  },
+  {
+    "slug": "videografie",
+    "title": "Videografie",
+    "icon": "Video",
+    "tagline": "Cinematische video's die je verhaal tot leven brengen.",
+    "description": "Bedrijfsvideo's, aftermovies en commercials met een filmische uitstraling en heldere boodschap.",
+    "longDescription": "Van concept tot montage: wij vertellen jouw merkverhaal met beeld, geluid en ritme. Bedrijfsfilms, aftermovies en promotievideo's die kijkers vasthouden en converteren.",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1600&q=80&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "order": 5,
+    "visible": true
+  },
+  {
+    "slug": "social-media-content",
+    "title": "Social Media Content",
+    "icon": "Smartphone",
+    "tagline": "Scroll-stoppende content voor Instagram, TikTok en LinkedIn.",
+    "description": "Consistente, herkenbare content die jouw merk dagelijks zichtbaar houdt op social media.",
+    "longDescription": "Reels, carousels en stories die passen bij jouw merkidentiteit en daadwerkelijk engagement opleveren. Wij denken mee over concept, planning en productie van doorlopende contentseries.",
+    "image": "https://images.unsplash.com/photo-1611262588024-d12430b98920?w=1600&q=80&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=1200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "order": 6,
+    "visible": true
+  }
+]

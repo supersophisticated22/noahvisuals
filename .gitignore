@@ -36,6 +36,21 @@ yarn-error.log*
 # vercel
 .vercel
 
+# CMS uploaded media (keep the dir, ignore uploads)
+/uploads/*
+!/uploads/.gitkeep
+
+# CMS history snapshots (keep the dir, ignore snapshots)
+/content/history/*
+!/content/history/.gitkeep
+
+# CMS admin credentials file (bcrypt hash, runtime-generated)
+/content/auth.json
+
+# pm2 logs (keep the dir)
+/logs/*
+!/logs/.gitkeep
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

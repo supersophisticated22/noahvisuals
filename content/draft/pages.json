@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "headline": "Noah Visuals",
+    "tagline": "Premium fotografie & videografie voor merken die opvallen.",
+    "cta_label": "Bekijk diensten",
+    "cta_url": "#diensten"
+  },
+  "about": {
+    "heading": "Over Noah Visuals",
+    "body": "Noah Visuals is een fotografie- en videografiestudio die merken helpt om zich premium in beeld te brengen. Van bedrijfsportretten tot cinematische video's: wij vertalen jouw identiteit naar beeld dat blijft hangen.",
+    "photo": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1600&q=80&auto=format&fit=crop"
+  },
+  "process": [
+    {
+      "step": "01",
+      "title": "Kennismaking",
+      "description": "We bespreken je merk, doelen en wensen tijdens een vrijblijvend kennismakingsgesprek."
+    },
+    {
+      "step": "02",
+      "title": "Concept & planning",
+      "description": "Samen stellen we een concept en shootplan op, afgestemd op jouw huisstijl en doelgroep."
+    },
+    {
+      "step": "03",
+      "title": "Shoot / productie",
+      "description": "Onze fotografen en videografen leggen jouw merk vast met professionele apparatuur en een geoefend oog."
+    },
+    {
+      "step": "04",
+      "title": "Oplevering & optimalisatie",
+      "description": "Je ontvangt zorgvuldig bewerkt beeldmateriaal, geoptimaliseerd voor web, print en social media."
+    }
+  ],
+  "contact": {
+    "email": "",
+    "phone": "",
+    "location": "Netherlands",
+    "instagram": "",
+    "linkedin": ""
+  },
+  "seo": {
+    "site_name": "Noah Visuals",
+    "default_description": "Noah Visuals | Premium fotografie & videografie",
+    "default_og_image": ""
+  }
+}
