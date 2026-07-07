@@ -1,3 +1,6 @@
+require('dotenv').config();
+
+
 module.exports = {
     apps: [
         {
@@ -12,7 +15,11 @@ module.exports = {
             env: {
                 NODE_ENV: "production",
                 HOSTNAME: "127.0.0.1",
-                PORT: "3001"
+                PORT: "3001",
+                ADMIN_USER: process.env.ADMIN_USER,
+                ADMIN_PASS: process.env.ADMIN_PASS,
+                JWT_SECRET: process.env.JWT_SECRET,
+                ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
             },
             out_file: "logs/noahvisuals-pm2-out.log",
             error_file: "logs/noahvisuals-pm2-error.log",
