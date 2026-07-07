@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 
 // Toggles the `cms_preview` cookie so the public site reads draft/ content.
 // Guarded by proxy.ts (admin-only). ?v=1 enables, ?v=0 disables.
@@ -15,7 +15,14 @@ export async function GET(request: Request) {
     store.delete("cms_preview");
   }
 
+  // Build public origin from proxy-forwarded headers — request.url is the
+  // internal origin (localhost) behind a reverse proxy on live.
+  const h = await headers();
+  const host = h.get("x-forwarded-host") ?? h.get("host") ?? url.host;
+  const proto = h.get("x-forwarded-proto") ?? url.protocol.replace(":", "");
+  const origin = `${proto}://${host}`;
+
   // Only allow same-origin relative redirects.
   const dest = to.startsWith("/") ? to : "/";
-  return NextResponse.redirect(new URL(dest, request.url));
+  return NextResponse.redirect(new URL(dest, origin));
 }

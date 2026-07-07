@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
+import { getPages } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Contact | Noah Visuals",
@@ -8,7 +9,11 @@ export const metadata: Metadata = {
     "Plan een kennismaking met Noah Visuals voor premium fotografie en videografie.",
 };
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const pages = await getPages();
+  const email = pages.contact.email || "hello@noahvisuals.nl";
+  const phone = pages.contact.phone || "+31 6 12 34 56 78";
+  const location = pages.contact.location || "Amsterdam, Nederland";
   return (
     <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
       <div className="mx-auto max-w-2xl text-center">
@@ -30,10 +35,10 @@ export default function ContactPage() {
             <div>
               <p className="text-sm font-medium text-foreground">E-mail</p>
               <a
-                href="mailto:hello@noahvisuals.nl"
+                href={`mailto:${email}`}
                 className="cursor-pointer text-muted-foreground transition-colors duration-200 hover:text-accent"
               >
-                hello@noahvisuals.nl
+                {email}
               </a>
             </div>
           </div>
@@ -43,10 +48,10 @@ export default function ContactPage() {
             <div>
               <p className="text-sm font-medium text-foreground">Telefoon</p>
               <a
-                href="tel:+31612345678"
+                href={`tel:${phone.replace(/\s+/g, "")}`}
                 className="cursor-pointer text-muted-foreground transition-colors duration-200 hover:text-accent"
               >
-                +31 6 12 34 56 78
+                {phone}
               </a>
             </div>
           </div>
@@ -55,7 +60,7 @@ export default function ContactPage() {
             <MapPin className="mt-1 size-5 text-accent" aria-hidden="true" />
             <div>
               <p className="text-sm font-medium text-foreground">Studio</p>
-              <p className="text-muted-foreground">Amsterdam, Nederland</p>
+              <p className="text-muted-foreground">{location}</p>
             </div>
           </div>
         </div>
